@@ -1,0 +1,57 @@
+$white: rgb(255,255, 255);
+$gray: rgb(248, 249, 249);
+
+body{
+  overflow-x: hidden;
+}
+
+.mysection{
+  width: 81rem;
+  height: 22rem;
+  position: relative;
+  top: -13.7rem;
+  left: -0.5rem;
+
+
+  h1 {
+    padding-top: 1rem;
+    text-align: center;
+    font-family: "Arial", "serif";
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: gray;
+
+  }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+  .mysection{
+    width: 81rem;
+    height: 22rem;
+    position: relative;
+    top: -13.7rem;
+    left: -0.5rem;
+
+
+    h1 {
+      padding-top: 1rem;
+      text-align: center;
+      font-family: "Arial", "serif";
+      font-size: 2rem;
+      font-weight: bold;
+      font-style: italic;
+      color: gray;
+
+    }
+
+
+  }
+
+}

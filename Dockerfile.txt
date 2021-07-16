@@ -1,0 +1,14 @@
+FROM node
+WORKDIR /usr/src/app
+COPY ./package.json ./
+RUN npm install -g http-server
+RUN npm install
+COPY . .
+
+CMD ["npm", "run", "build"]
+CMD ["docker", "build"]
+
+EXPOSE 3000
+
+#The following settings are only for dev purposes, should be omitted when deploying to production
+#EXPOSE 3000
