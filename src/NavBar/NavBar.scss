@@ -37,12 +37,14 @@
   .header-list{
     position: relative;
     top: -1.5rem;
-    left: -18rem;
+    left: -15rem;
     list-style-type: none;
   }
 
   .header-points{
     display: inline;
+    white-space: nowrap;
+    word-spacing: 2px;
     margin-right: 0.5rem;
     margin-left: 0.5rem;
 
@@ -50,7 +52,8 @@
   .header__links{
     font-family: "Times New Roman", Serif;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
     text-decoration-line: none;
   }
 }
