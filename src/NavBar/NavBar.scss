@@ -32,6 +32,27 @@
     font-size: 40px;
   }
 
+
+
+  .header-list{
+    position: relative;
+    top: -1.5rem;
+    left: -18rem;
+    list-style-type: none;
+  }
+
+  .header-points{
+    display: inline;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+
+  }
+  .header__links{
+    font-family: "Times New Roman", Serif;
+    color: white;
+    font-size: 15px;
+    text-decoration-line: none;
+  }
 }
 
 
