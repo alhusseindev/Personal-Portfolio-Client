@@ -78,18 +78,15 @@ $darkslateblue: #483D8B;
 
 
 
-
-
-
-@media only screen and (max-width: 900px){
+@media only screen and (min-width: 1200px){
   .stack-section{
 
     //background-image: url("../Assets/gears.jpg");
     //background-repeat: no-repeat;
     //background-size: cover;
     background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
-    width: 56.3rem;
-    height: 106rem;
+    width: 81.1rem;
+    height: 70rem;
     position: relative;
     top: -15.4rem;
     left: -0.5rem;
@@ -101,7 +98,7 @@ $darkslateblue: #483D8B;
       height: 45rem;
 
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(7, 1fr);
       grid-template-rows: repeat(56, 1fr);
 
 
@@ -140,4 +137,134 @@ $darkslateblue: #483D8B;
     }
   }
 }
+
+
+
+
+
+@media only screen and (max-width: 992px){
+  .stack-section{
+
+    //background-image: url("../Assets/gears.jpg");
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
+    width: 81.1rem;
+    height: 70rem;
+    position: relative;
+    top: -15.4rem;
+    left: -0.5rem;
+
+    .stack-container {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      width: 100%;
+      height: 45rem;
+
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(56, 1fr);
+
+
+      //justify-content: space-between;
+      //flex-wrap: wrap;
+
+      .stack {
+        background-color: white;
+        border-radius: 1rem;
+        color: black;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /**
+        flex-grow: 1;
+        flex-shrink: 0;
+        justify-content: space-around; */
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        opacity: 0.8;
+
+        &:hover{
+          opacity: 0.7;
+        }
+
+        .languages{
+          text-align: center;
+          position: relative;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px){
+  .stack-section{
+
+    //background-image: url("../Assets/gears.jpg");
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
+    width: 62rem;
+    height: 90rem;
+    position: relative;
+    top: -15.4rem;
+    left: -0.5rem;
+
+    .stack-container {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      width: 100%;
+      height: 45rem;
+
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(56, 1fr);
+
+
+      //justify-content: space-between;
+      //flex-wrap: wrap;
+
+      .stack {
+        background-color: white;
+        border-radius: 1rem;
+        color: black;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /**
+        flex-grow: 1;
+        flex-shrink: 0;
+        justify-content: space-around; */
+        width: 8rem;
+        height: 8rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        opacity: 0.8;
+
+        &:hover{
+          opacity: 0.7;
+        }
+
+        .languages{
+          text-align: center;
+          position: relative;
+        }
+      }
+
+    }
+  }
+}
+
+
+
 

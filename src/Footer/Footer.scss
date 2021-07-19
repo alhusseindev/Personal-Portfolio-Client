@@ -55,10 +55,11 @@
 
 
 
-@media only screen and (max-width: 900px){
+
+@media only screen and (min-width: 1200px){
 
   .web-footer{
-    width: 56.3rem;
+    width: 81.1rem;
     height: 4.6rem;
     background-color: rgb(41,41,41);
     background-position: center;
@@ -72,6 +73,46 @@
 
 }
 
+
+
+
+@media only screen and (max-width: 992px){
+
+  .web-footer{
+    width: 81.1rem;
+    height: 4.6rem;
+    background-color: rgb(41,41,41);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 14.6rem;
+    left: -0.5rem;
+    clear: both;
+  }
+
+}
+
+
+
+
+
+@media only screen and (max-width: 600px){
+
+  .web-footer{
+    width: 62rem;
+    height: 4.6rem;
+    background-color: rgb(41,41,41);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 14.6rem;
+    left: -0.5rem;
+    clear: both;
+  }
+
+}
 
 
 
