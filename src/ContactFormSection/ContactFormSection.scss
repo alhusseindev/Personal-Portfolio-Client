@@ -113,7 +113,12 @@ label {
 
 
 
-@media only screen and (max-width: 1024px){
+
+
+
+
+
+@media only screen and (max-width: 900px){
   .inquiry-section{
     display: block;
     width: 100%;
@@ -124,7 +129,7 @@ label {
 
   .inquiry-section .contact-form-div{
     float: left;
-    width: 41rem;
+    width: 28.3rem;
     height: 30rem;
     //background-image: url("../Assets/dna-3539309.jpg");
     //background-size: cover;
@@ -141,14 +146,14 @@ label {
 
 
   .inquiry-section .contact-form{
-    background-color: transparent;
+    background-color: white;
     float: right;
-    width: 40rem;
+    width: 28rem;
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 40.5rem;
+    left: 27.8rem;
     top: -0.6rem;
     opacity: 0.5;
   }
@@ -204,16 +209,15 @@ label {
   }
 
   #message{
-    margin-top: 1rem;
-    width: 30rem;
+    width: 15rem;
     height: 10rem;
   }
 
 
   .submit-button{
     position: relative;
-    top: 2rem;
-    left: 17rem;
+    top: 8rem;
+    left: -10rem;
     width: 5rem;
     height: 3rem;
   }
