@@ -85,7 +85,7 @@ $darkslateblue: #483D8B;
     //background-repeat: no-repeat;
     //background-size: cover;
     background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
-    width: 81.1rem;
+    width: 81.5rem;
     height: 70rem;
     position: relative;
     top: -15.4rem;
@@ -212,8 +212,8 @@ $darkslateblue: #483D8B;
     //background-repeat: no-repeat;
     //background-size: cover;
     background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
-    width: 62rem;
-    height: 90rem;
+    width: 81rem;
+    height: 80rem;
     position: relative;
     top: -15.4rem;
     left: -0.5rem;
@@ -225,7 +225,7 @@ $darkslateblue: #483D8B;
       height: 45rem;
 
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(56, 1fr);
 
 
