@@ -60,6 +60,36 @@ body{
 
 
 
+
+@media only screen and (max-width: 1024px){
+  .mysection{
+    background-color: white;
+    width: 64rem;
+    height: 22rem;
+    position: relative;
+    top: -13.7rem;
+    left: -0.5rem;
+
+
+    h1 {
+      padding-top: 1rem;
+      text-align: center;
+      font-family: "Arial", "serif";
+      font-size: 2rem;
+      font-weight: bold;
+      font-style: italic;
+      color: gray;
+
+    }
+
+
+  }
+
+}
+
+
+
+
 @media only screen and (max-width: 992px){
   .mysection{
     background-color: white;
@@ -85,6 +115,36 @@ body{
   }
 
 }
+
+
+
+
+@media only screen and (max-width: 768px){
+  .mysection{
+    background-color: white;
+    width: 64rem;
+    height: 22rem;
+    position: relative;
+    top: -13.7rem;
+    left: -0.5rem;
+
+
+    h1 {
+      padding-top: 1rem;
+      text-align: center;
+      font-family: "Arial", "serif";
+      font-size: 2rem;
+      font-weight: bold;
+      font-style: italic;
+      color: gray;
+
+    }
+
+
+  }
+
+}
+
 
 
 
@@ -117,4 +177,30 @@ body{
 
 
 
+
+@media only screen and (max-width: 480px){
+  .mysection{
+    background-color: white;
+    width: 63rem;
+    height: 22rem;
+    position: relative;
+    top: -13.7rem;
+    left: -0.5rem;
+
+
+    h1 {
+      padding-top: 1rem;
+      text-align: center;
+      font-family: "Arial", "serif";
+      font-size: 2rem;
+      font-weight: bold;
+      font-style: italic;
+      color: gray;
+
+    }
+
+
+  }
+
+}
 
