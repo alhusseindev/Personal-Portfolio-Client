@@ -32,7 +32,7 @@
 
 .inquiry-section .contact-form{
   float: right;
-  width: 40rem;
+  width: 39rem;
   height: 30rem;
   background-color: white;
   background-size: cover;
@@ -58,7 +58,7 @@ label {
 .contact-text{
   text-align: center;
   color: black;
-
+  border-radius: 0.3rem;
   margin-top: 1rem;
 }
 
@@ -86,7 +86,8 @@ label {
 
 
 .contact-label{
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   font-size: 1rem;
   position: relative;
   margin-top: 1rem;
@@ -94,7 +95,7 @@ label {
 }
 
 #message{
-  margin-top: 1rem;
+  border-radius: 1rem;
   width: 30rem;
   height: 10rem;
 }
@@ -114,7 +115,7 @@ label {
 
 
 
-@media only screen and (min-width: 1200px){
+@media only screen and (max-width: 1200px){
   .inquiry-section{
     display: block;
     width: 100%;
@@ -125,7 +126,7 @@ label {
 
   .inquiry-section .contact-form-div{
     float: left;
-    width: 41.3rem;
+    width: 40rem;
     height: 30rem;
     //background-image: url("../Assets/dna-3539309.jpg");
     //background-size: cover;
@@ -144,12 +145,12 @@ label {
   .inquiry-section .contact-form{
     background-color: white;
     float: right;
-    width: 40.2rem;
+    width: 35rem;
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 40.75rem;
+    left: 39.5rem;
     top: -0.6rem;
     opacity: 0.5;
   }
@@ -205,6 +206,8 @@ label {
   }
 
   #message{
+    position: relative;
+    left: 3rem;
     width: 30rem;
     height: 10rem;
   }
@@ -212,8 +215,8 @@ label {
 
   .submit-button{
     position: relative;
-    top: 2rem;
-    left: 20rem;
+    top: 8rem;
+    left: -15rem;
     width: 5rem;
     height: 3rem;
   }
@@ -255,12 +258,12 @@ label {
   .inquiry-section .contact-form{
     background-color: white;
     float: right;
-    width: 32.1rem;
+    width: 32rem;
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 31.4rem;
+    left: 31.5rem;
     top: -0.6rem;
     opacity: 0.5;
   }
@@ -316,6 +319,8 @@ label {
   }
 
   #message{
+    position: relative;
+    left: -3rem;
     width: 20rem;
     height: 11rem;
   }
@@ -323,8 +328,8 @@ label {
 
   .submit-button{
     position: relative;
-    top: 9rem;
-    left: -12rem;
+    top: 1.7rem;
+    left: 13rem;
     width: 5rem;
     height: 3rem;
   }
@@ -336,113 +341,6 @@ label {
 
 
 
-
-@media only screen and (max-width: 992px){
-  .inquiry-section{
-    display: block;
-    width: 100%;
-    position: relative;
-    top: -14.8rem;
-
-  }
-
-  .inquiry-section .contact-form-div{
-    float: left;
-    width: 41.1rem;
-    height: 30rem;
-    //background-image: url("../Assets/dna-3539309.jpg");
-    //background-size: cover;
-    //background-repeat: no-repeat;
-    background: #87CEEB;
-    background-image: url("../Assets/contact_hero.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -10em -3em;
-    position: absolute;
-    left: -0.5rem;
-    top: -0.6rem;
-  }
-
-
-  .inquiry-section .contact-form{
-    background-color: white;
-    float: right;
-    width: 40rem;
-    height: 30rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: absolute;
-    left: 40.6rem;
-    top: -0.6rem;
-    opacity: 0.5;
-  }
-
-
-
-  label {
-    float: left;
-  }
-
-
-  .error__message{
-    color: red;
-  }
-
-
-  .contact-text{
-    text-align: center;
-    color: black;
-
-    margin-top: 1rem;
-  }
-
-  .contact-text::placeholder{
-    text-align: center;
-    color: black;
-  }
-
-  .submit-button{
-
-    background-color: rgb(0,0,0);
-    color: white;
-    border-radius: 0.5rem;
-
-  }
-
-  .submit-button:hover{
-    opacity: 0.5;
-  }
-
-  .contact-title{
-    text-align: center;
-  }
-
-
-
-  .contact-label{
-    margin-left: 2rem;
-    font-size: 1rem;
-    position: relative;
-    margin-top: 1rem;
-    color: black;
-  }
-
-  #message{
-    width: 30rem;
-    height: 10rem;
-  }
-
-
-  .submit-button{
-    position: relative;
-    top: 2rem;
-    left: 20rem;
-    width: 5rem;
-    height: 3rem;
-  }
-
-
-}
 
 
 
@@ -460,7 +358,7 @@ label {
 
   .inquiry-section .contact-form-div{
     float: left;
-    width: 32rem;
+    width: 23.5rem;
     height: 30rem;
     //background-image: url("../Assets/dna-3539309.jpg");
     //background-size: cover;
@@ -479,12 +377,12 @@ label {
   .inquiry-section .contact-form{
     background-color: white;
     float: right;
-    width: 32.1rem;
+    width: 24.5rem;
     height: 30rem;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    left: 31.4rem;
+    left: 23rem;
     top: -0.6rem;
     opacity: 0.5;
   }
@@ -540,15 +438,18 @@ label {
   }
 
   #message{
-    width: 20rem;
+    position: relative;
+    left: -3rem;
+    width: 15rem;
     height: 11rem;
+    border-radius: 1rem;
   }
 
 
   .submit-button{
     position: relative;
-    top: 9rem;
-    left: -12rem;
+    top: 1.5rem;
+    left: 10rem;
     width: 5rem;
     height: 3rem;
   }
