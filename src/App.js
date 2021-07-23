@@ -5,6 +5,7 @@ import  DescriptionSection  from "./DescriptionSection/Section";
 import StackSection from "./StackSection/StackSection";
 import ContactFormSection from './ContactFormSection/ContactFormSection';
 import Footer from "./Footer/Footer";
+import './App.scss';
 
 function App(){
     return(

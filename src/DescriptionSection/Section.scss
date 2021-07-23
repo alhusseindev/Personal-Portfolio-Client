@@ -6,7 +6,7 @@ body{
 }
 
 .mysection{
-  width: 78.9rem;
+  width: 80rem;
   height: 22rem;
   position: relative;
   top: -13.7rem;
@@ -34,7 +34,7 @@ body{
 @media only screen and (max-width: 1200px){
   .mysection{
     background-color: white;
-    width: 75rem;
+    width: 76rem;
     height: 22rem;
     position: relative;
     top: -13.7rem;
@@ -65,7 +65,7 @@ body{
 @media only screen and (max-width: 1024px){
   .mysection{
     background-color: white;
-    width: 64rem;
+    width: 65rem;
     height: 22rem;
     position: relative;
     top: -13.7rem;
@@ -97,7 +97,7 @@ body{
 @media only screen and (max-width: 768px){
   .mysection{
     background-color: white;
-    width: 48rem;
+    width: 49rem;
     height: 22rem;
     position: relative;
     top: -13.7rem;
@@ -122,33 +122,6 @@ body{
 
 
 
-
-
-@media only screen and (max-width: 600px){
-  .mysection{
-    background-color: white;
-    width: 81rem;
-    height: 22rem;
-    position: relative;
-    top: -13.7rem;
-    left: -0.5rem;
-
-
-    h1 {
-      padding-top: 1rem;
-      text-align: center;
-      font-family: "Arial", "serif";
-      font-size: 2rem;
-      font-weight: bold;
-      font-style: italic;
-      color: gray;
-
-    }
-
-
-  }
-
-}
 
 
 

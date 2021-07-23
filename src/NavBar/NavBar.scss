@@ -37,7 +37,7 @@
   .header-list{
     position: relative;
     top: -1.5rem;
-    left: -15rem;
+    left: -17rem;
     list-style-type: none;
   }
 
@@ -45,7 +45,7 @@
     display: inline;
     white-space: nowrap;
     word-spacing: 2px;
-    margin-right: 0.5rem;
+    margin-right: 2rem;
 
   }
   .header__links{
@@ -68,7 +68,7 @@
 
 @media only screen and (max-width: 1200px){
   .nav__bar{
-    width: 75rem;
+    width: 76rem;
     height: 5rem;
     background-color: transparent;
     position: absolute;
@@ -137,7 +137,7 @@
 
 @media only screen and (max-width: 1024px){
   .nav__bar{
-    width: 64rem;
+    width: 65rem;
     height: 5rem;
     background-color: transparent;
     position: absolute;
@@ -177,7 +177,7 @@
     .header-list{
       position: relative;
       top: -1rem;
-      left: -35rem;
+      left: -37rem;
       list-style-type: none;
     }
 
@@ -185,7 +185,7 @@
       display: inline;
       white-space: nowrap;
       word-spacing: 2px;
-      margin-right: 0.5rem;
+      margin-right: 2rem;
 
     }
     .header__links{
@@ -209,7 +209,7 @@
 
 @media only screen and (max-width: 768px){
   .nav__bar{
-    width: 48rem;
+    width: 49rem;
     height: 5rem;
     background-color: transparent;
     position: absolute;
@@ -249,7 +249,7 @@
     .header-list{
       position: relative;
       top: -1rem;
-      left: -50rem;
+      left: -52rem;
       list-style-type: none;
     }
 
@@ -257,7 +257,7 @@
       display: inline;
       white-space: nowrap;
       word-spacing: 2px;
-      margin-right: 0.5rem;
+      margin-right: 2rem;
 
     }
     .header__links{
@@ -274,74 +274,6 @@
 }
 
 
-
-
-
-@media only screen and (max-width: 600px){
-  .nav__bar{
-    width: 81rem;
-    height: 5rem;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-
-
-    .menu__icon{
-      cursor: pointer;
-      width: 3rem;
-      position: relative;
-      left: 78rem;
-      top: -0.5rem;
-    }
-
-
-
-    .logo{
-      cursor: pointer;
-      position: relative;
-      left: 5rem;
-      top: 1rem;
-      background-color: transparent;
-      font-weight: bold;
-      display: inline;
-      color: white;
-      font-family: "Times New Roman", "serif";
-      font-size: 30px;
-    }
-
-
-
-
-
-
-    .header-list{
-      position: relative;
-      top: -1rem;
-      left: -20rem;
-      list-style-type: none;
-    }
-
-    .header-points{
-      display: inline;
-      white-space: nowrap;
-      word-spacing: 2px;
-      margin-right: 0.5rem;
-
-    }
-    .header__links{
-      font-family: "Times New Roman", Serif;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration-line: none;
-    }
-
-
-
-  }
-}
 
 
 
