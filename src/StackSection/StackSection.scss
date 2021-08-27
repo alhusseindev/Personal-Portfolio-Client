@@ -25,6 +25,7 @@ $darkslateblue: #483D8B;
   background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
   width: 100%;
   height: 76rem;
+  overflow-y: auto;
   /**position: relative;
   top: -15.4rem;
   left: -0.5rem; */
@@ -37,8 +38,10 @@ $darkslateblue: #483D8B;
 
     /** Ask if there is a way to have grid-template-columns & grid-template-rows to adjust automatically based on the screen resolution without the need of setting media queries */
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 1fr;
+    grid-row-gap: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
 
 
     //justify-content: space-between;
