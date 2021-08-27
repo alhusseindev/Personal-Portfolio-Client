@@ -15,7 +15,7 @@ const StackSection = () =>{
                 <div className="stack"><h3 className="languages">Node JS</h3></div>
                 <div className="stack"><h3 className="languages">HTML</h3></div>
                 <div className="stack"><h3 className="languages">CSS</h3></div>
-                <div className="stack"><h3 className="languages">SASS<br/>SCSS</h3></div>
+                <div className="stack"><h3 className="languages">SASS<br/>& SCSS</h3></div>
                 <div className="stack"><h3 className="languages">Bash<br/>Terminal</h3></div>
                 <div className="stack"><h3 className="languages">Spring Boot</h3></div>
                 <div className="stack"><h3 className="languages">JPA</h3></div>
@@ -23,6 +23,8 @@ const StackSection = () =>{
                 <div className="stack"><h3 className="languages">Django REST</h3></div>
                 <div className="stack"><h3 className="languages">Express JS</h3></div>
                 <div className="stack"><h3 className="languages">React JS</h3></div>
+                <div className="stack"><h3 className="languages">React Native</h3></div>
+                <div className="stack"><h3 className="languages">Android</h3></div>
                 <div className="stack"><h3 className="languages">Machine Learning</h3></div>
                 <div className="stack"><h3 className="languages">Keras</h3></div>
                 <div className="stack"><h3 className="languages">SciKit-Learn</h3></div>
@@ -42,9 +44,10 @@ const StackSection = () =>{
                 <div className="stack"><h3 className="languages">Secure Coding</h3></div>
                 <div className="stack"><h3 className="languages">SEI Secure Coding Standards</h3></div>
                 <div className="stack"><h3 className="languages">CISSP</h3></div>
-                <div className="stack"><h3 className="languages">Web APIs<br/>REST<br/>Microservices</h3></div>
-                <div className="stack"><h3 className="languages">SoC<br/>Embedded Systems<br/>IoT</h3></div>
-                <div className="stack"><h3 className="languages">System Design<br/>Software Architecture</h3></div>
+                <div className="stack"><h3 className="languages">=> Web APIs<br/>=> REST<br/>=> Microservices</h3></div>
+                <div className="stack"><h3 className="languages">=> SoC<br/>=> Embedded Systems<br/>=> IoT</h3></div>
+                <div className="stack"><h3 className="languages">MQTT</h3></div>
+                <div className="stack"><h3 className="languages">System Design &<br/>Software Architecture</h3></div>
                 <div className="stack"><h3 className="languages">High Performance Computing</h3></div>
             </div>
         </section>

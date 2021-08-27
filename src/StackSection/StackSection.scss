@@ -23,11 +23,11 @@ $darkslateblue: #483D8B;
   //background-repeat: no-repeat;
   //background-size: cover;
   background-image: linear-gradient(to top, $pink, $sky-blue, $darkslateblue);;
-  width: 80rem;
-  height: 66rem;
-  position: relative;
+  width: 100%;
+  height: 76rem;
+  /**position: relative;
   top: -15.4rem;
-  left: -0.5rem;
+  left: -0.5rem; */
 
   .stack-container {
     padding-top: 2rem;
@@ -35,9 +35,10 @@ $darkslateblue: #483D8B;
     width: 100%;
     height: 45rem;
 
+    /** Ask if there is a way to have grid-template-columns & grid-template-rows to adjust automatically based on the screen resolution without the need of setting media queries */
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
 
 
     //justify-content: space-between;
@@ -78,6 +79,8 @@ $darkslateblue: #483D8B;
 
 
 
+/***
+
 @media only screen and (max-width: 1200px){
   .stack-section{
 
@@ -113,10 +116,10 @@ $darkslateblue: #483D8B;
         display: flex;
         justify-content: center;
         align-items: center;
-        /**
-        flex-grow: 1;
-        flex-shrink: 0;
-        justify-content: space-around; */
+
+        //flex-grow: 1;
+        //flex-shrink: 0;
+        //justify-content: space-around;
         width: 8rem;
         height: 8rem;
         margin-top: 1rem;
@@ -178,10 +181,10 @@ $darkslateblue: #483D8B;
         display: flex;
         justify-content: center;
         align-items: center;
-        /**
-        flex-grow: 1;
-        flex-shrink: 0;
-        justify-content: space-around; */
+
+        //flex-grow: 1;
+        //flex-shrink: 0;
+        //justify-content: space-around;
         width: 8rem;
         height: 8rem;
         margin-top: 1rem;
@@ -244,10 +247,10 @@ $darkslateblue: #483D8B;
         display: flex;
         justify-content: center;
         align-items: center;
-        /**
-        flex-grow: 1;
-        flex-shrink: 0;
-        justify-content: space-around; */
+
+        //flex-grow: 1;
+        //flex-shrink: 0;
+        //justify-content: space-around;
         width: 8rem;
         height: 8rem;
         margin-top: 1rem;
@@ -312,10 +315,10 @@ $darkslateblue: #483D8B;
         display: flex;
         justify-content: center;
         align-items: center;
-        /**
-        flex-grow: 1;
-        flex-shrink: 0;
-        justify-content: space-around; */
+
+        //flex-grow: 1;
+        //flex-shrink: 0;
+        //justify-content: space-around;
         width: 8rem;
         height: 8rem;
         margin-top: 1rem;
@@ -339,3 +342,4 @@ $darkslateblue: #483D8B;
 
 
 
+*/

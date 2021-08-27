@@ -1,14 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 
 
   .header__section {
-    width: 80rem;
-    height: 48rem;
+    width: 100%;
+
+
+    height: 43rem;
     background-image: url("../Assets/abstract.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-    left: -0.5rem;
-    top: -12rem;
+    background-position: center;
+    background-attachment: fixed;
 
   }
 
@@ -30,9 +35,7 @@
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    position: absolute;
-    top: 45rem;
-    left: 21rem;
+
     z-index: 10;
     opacity: 0.8;
 
@@ -57,9 +60,7 @@
     border-radius: 50%;
     width: 5rem;
     height: 5rem;
-    position: absolute;
-    top: 45rem;
-    left: 52rem;
+
     z-index: 10;
     opacity: 0.8;
 
@@ -92,7 +93,7 @@
 
 
 
-
+/**
   @media only screen and (max-width: 1200px){
     .header__section {
 
@@ -107,17 +108,7 @@
 
     }
 
-    /**
-    .header__hero{
-      font-family: "Arial", sans-Serif;
-      font-size: 20px;
-      font-weight: bold;
-      position: relative;
-      top: 25rem;
-      left: 5rem;
-    }
 
-     */
 
 
     .github-icon{
@@ -209,17 +200,7 @@
 
     }
 
-    /**
-    .header__hero{
-      font-family: "Arial", sans-Serif;
-      font-size: 20px;
-      font-weight: bold;
-      position: relative;
-      top: 25rem;
-      left: 5rem;
-    }
 
-     */
 
 
     .github-icon{
@@ -312,17 +293,6 @@
 
     }
 
-    /**
-    .header__hero{
-      font-family: "Arial", sans-Serif;
-      font-size: 20px;
-      font-weight: bold;
-      position: relative;
-      top: 25rem;
-      left: 5rem;
-    }
-
-     */
 
 
     .github-icon{
@@ -414,17 +384,6 @@
 
     }
 
-    /**
-    .header__hero{
-      font-family: "Arial", sans-Serif;
-      font-size: 20px;
-      font-weight: bold;
-      position: relative;
-      top: 25rem;
-      left: 5rem;
-    }
-
-     */
 
 
     .github-icon{
@@ -500,3 +459,4 @@
 
 
 
+*/

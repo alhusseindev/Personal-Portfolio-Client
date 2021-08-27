@@ -1,5 +1,6 @@
 *{
   font-family: "Arial", "sans-erif";
+
 }
 
 
@@ -7,13 +8,13 @@
 .inquiry-section{
   display: block;
   width: 100%;
-  position: relative;
-  top: -14.8rem;
+  /**position: relative;
+  top: -14.8rem; */
 }
 
 .inquiry-section .contact-form-div{
   float: left;
-  width: 40rem;
+  width: 50%;
   height: 30rem;
   //background-image: url("../Assets/dna-3539309.jpg");
   //background-size: cover;
@@ -23,26 +24,30 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -10em -3em;
-  position: absolute;
+  //these 3 lines cause it to have the white area on the right
+  /**position: absolute;
   left: -0.5rem;
-  top: -0.6rem;
+  top: -0.6rem; */
 }
 
 
 .inquiry-section .contact-form{
   float: right;
-  width: 40rem;
+  width: 50%;
   height: 30rem;
   background-color: white;
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
+  //these 3 lines cause it to have the white area on the right
+  /**position: absolute;
   left: 39.5rem;
-  top: -0.6rem;
+  top: -0.6rem; */
   opacity: 0.5;
 }
 
-
+.contact-title{
+  padding-top: 1.5rem;
+}
 
 label {
  float: left;
@@ -95,15 +100,12 @@ label {
 
 #message{
   border-radius: 1rem;
-  width: 30rem;
+  width: 70%;
   height: 10rem;
 }
 
 
 .submit-button{
-  position: relative;
-  top: 2rem;
-  left: 17rem;
   width: 5rem;
   height: 3rem;
 }
@@ -111,7 +113,7 @@ label {
 
 
 
-
+/***
 
 
 @media only screen and (max-width: 1200px){
@@ -572,3 +574,4 @@ label {
 }
 
 
+*/

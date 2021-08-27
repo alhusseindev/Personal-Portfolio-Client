@@ -48,7 +48,7 @@ export default class ContactFormSection extends React.Component{
                         {/*<h1 className="inquiry-text">Have an Inquiry ?</h1>*/}
 
                     </div>
-                    <form className="contact-form">
+                    <form className="contact-form" onSubmit={this.handleFormSubmission}>
                         <h2 className="contact-title">Get In Touch!</h2>
                         <label htmlFor="contact-name" className="contact-label">Name:</label>
                         <input type="text" id="contact-name" className="contact-text" placeholder="Name" onChange={this.handleChange} />
