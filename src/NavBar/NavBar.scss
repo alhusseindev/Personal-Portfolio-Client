@@ -1,27 +1,17 @@
 
 .nav__bar {
   width: 100%;
-  background-color: green;
+  background-color: dimgrey;
   height: 5rem;
   /**
   position: absolute;
   top: 0;
   left: 0; */
-  z-index: 10;
-
-
-  .menu__icon {
-    cursor: pointer;
-    width: 3rem;
-    /** these 3 lines cause it to have the white area on the right
-    position: relative;
-    left: 73rem;
-    top: -0.5rem; */
-  }
+  z-index: 100;
 
 
   .logo {
-    display: block;
+    display: inline-block;
     cursor: pointer;
     padding-top: 0.5rem;
     padding-left: 1rem;
@@ -34,16 +24,28 @@
   }
 
 
+  .menu__icon {
+    text-align: center;
+    cursor: pointer;
+
+    /** these 3 lines cause it to have the white area on the right
+    position: relative;
+    left: 73rem;
+    top: -0.5rem; */
+  }
+
+
   .header-list{
     display: flex;
-    /**justify-content: center;
-    align-items:center; */
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
     list-style-type: none;
   }
 
   .header-points{
     white-space: nowrap;
-    padding-right: 2rem;
+    padding-right: 1.5rem;
   }
 
   .header__links{
@@ -58,297 +60,4 @@
 
 
 
-
-
-/**
-
-
-
-
-@media only screen and (max-width: 1200px){
-  .nav__bar{
-    width: 76rem;
-    height: 5rem;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-
-
-    .menu__icon{
-      cursor: pointer;
-      width: 3rem;
-      position: relative;
-      left: 78rem;
-      top: -0.5rem;
-    }
-
-
-
-    .logo{
-      cursor: pointer;
-      position: relative;
-      left: 5rem;
-      top: 1rem;
-      background-color: transparent;
-      font-weight: bold;
-      display: inline;
-      color: white;
-      font-family: "Times New Roman", "serif";
-      font-size: 30px;
-    }
-
-
-
-
-
-
-    .header-list{
-      position: relative;
-      top: -1rem;
-      left: -22rem;
-      list-style-type: none;
-    }
-
-    .header-points{
-      display: inline;
-      white-space: nowrap;
-      word-spacing: 2px;
-      margin-right: 0.5rem;
-
-    }
-    .header__links{
-      font-family: "Times New Roman", Serif;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration-line: none;
-    }
-
-
-
-  }
-}
-
-
-
-
-@media only screen and (max-width: 1024px){
-  .nav__bar{
-    width: 65rem;
-    height: 5rem;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-
-
-    .menu__icon{
-      cursor: pointer;
-      width: 3rem;
-      position: relative;
-      left: 78rem;
-      top: -0.5rem;
-    }
-
-
-
-    .logo{
-      cursor: pointer;
-      position: relative;
-      left: 5rem;
-      top: 1rem;
-      background-color: transparent;
-      font-weight: bold;
-      display: inline;
-      color: white;
-      font-family: "Times New Roman", "serif";
-      font-size: 30px;
-    }
-
-
-
-
-
-
-    .header-list{
-      position: relative;
-      top: -1rem;
-      left: -37rem;
-      list-style-type: none;
-    }
-
-    .header-points{
-      display: inline;
-      white-space: nowrap;
-      word-spacing: 2px;
-      margin-right: 2rem;
-
-    }
-    .header__links{
-      font-family: "Times New Roman", Serif;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration-line: none;
-    }
-
-
-
-  }
-}
-
-
-
-
-
-
-
-@media only screen and (max-width: 768px){
-  .nav__bar{
-    width: 49rem;
-    height: 5rem;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-
-
-    .menu__icon{
-      cursor: pointer;
-      width: 3rem;
-      position: relative;
-      left: 78rem;
-      top: -0.5rem;
-    }
-
-
-
-    .logo{
-      cursor: pointer;
-      position: relative;
-      left: 5rem;
-      top: 1rem;
-      background-color: transparent;
-      font-weight: bold;
-      display: inline;
-      color: white;
-      font-family: "Times New Roman", "serif";
-      font-size: 30px;
-    }
-
-
-
-
-
-
-    .header-list{
-      position: relative;
-      top: -1rem;
-      left: -52rem;
-      list-style-type: none;
-    }
-
-    .header-points{
-      display: inline;
-      white-space: nowrap;
-      word-spacing: 2px;
-      margin-right: 2rem;
-
-    }
-    .header__links{
-      font-family: "Times New Roman", Serif;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration-line: none;
-    }
-
-
-
-  }
-}
-
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 480px){
-  .nav__bar{
-    width: 63rem;
-    height: 5rem;
-    background-color: transparent;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 10;
-
-
-    .menu__icon{
-      cursor: pointer;
-      width: 3rem;
-      position: relative;
-      left: 78rem;
-      top: -0.5rem;
-    }
-
-
-
-    .logo{
-      cursor: pointer;
-      position: relative;
-      left: 5rem;
-      top: 1rem;
-      background-color: transparent;
-      font-weight: bold;
-      display: inline;
-      color: white;
-      font-family: "Times New Roman", "serif";
-      font-size: 30px;
-    }
-
-
-
-
-
-
-    .header-list{
-      position: relative;
-      top: -1rem;
-      left: -35rem;
-      list-style-type: none;
-    }
-
-    .header-points{
-      display: inline;
-      white-space: nowrap;
-      word-spacing: 2px;
-      margin-right: 0.5rem;
-
-    }
-    .header__links{
-      font-family: "Times New Roman", Serif;
-      color: white;
-      font-size: 18px;
-      font-weight: bold;
-      text-decoration-line: none;
-    }
-
-
-
-  }
-}
-
-
-
-
-*/
 

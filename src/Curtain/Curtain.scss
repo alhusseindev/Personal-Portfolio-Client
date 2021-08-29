@@ -11,9 +11,7 @@ $darkslateblue: #483D8B;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: absolute;
-  top: 1rem;
-  left: -59rem;
+
 
 
   border-bottom-style: dotted;
@@ -34,9 +32,6 @@ $darkslateblue: #483D8B;
 
   .menu__items{
     list-style-type: none;
-    position: absolute;
-    top: 5rem;
-    left: 19rem;
   }
 
   li{
