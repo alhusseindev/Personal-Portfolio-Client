@@ -25,8 +25,22 @@ body{
     font-style: italic;
     color: gray;
 
+    animation-name: typing;
+    animation-duration: 5s;
+    animation-timing-function: steps(25);
+
+
   }
 
+
+  @keyframes typing{
+    from{
+      width: 50%;
+    }
+    to{
+      width: 100%;
+    }
+  }
 
 }
 
