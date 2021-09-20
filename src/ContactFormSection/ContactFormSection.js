@@ -21,9 +21,11 @@ export default class ContactFormSection extends React.Component{
     }
 
     handleChange = (event) =>{
-        let myInquiry = this.state.inquiry;
-        myInquiry[event.target.name] = event.target.value;
-        this.setState({inquiry: myInquiry});
+        //selecting inquiry from state
+        const { name, value} = event.target;
+        //setting the state
+        this.setState({inquiry:{...this.state.inquiry, [name]:value}});
+        console.log(`Input Change Detected!`);
     }
 
     handleFormSubmission = (event) =>{
@@ -62,8 +64,10 @@ export default class ContactFormSection extends React.Component{
                         <label htmlFor="message" className="contact-label" id="message-label">Message:</label>
                         <br/>
                         <input type="text" id="message" className="contact-text" placeholder="Message" onChange={this.handleChange} />
-                        <button type="submit" className="submit-button" onClick={this.submitInquiry} onSubmit={this.handleFormSubmission}>Submit</button>
-                        <p className="error__message"> { this.state.errorMessage } </p>
+                        <div className="button_container">
+                            <button type="submit" className="submit-button" onClick={() => this.submitInquiry()} onSubmit={this.handleFormSubmission}>Submit</button>
+                            <p className="error__message"> { this.state.errorMessage } </p>
+                        </div>
                     </form>
                 </section>
             </>

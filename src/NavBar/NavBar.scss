@@ -11,7 +11,9 @@
 
 
   .logo {
-    display: inline-block;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     cursor: pointer;
     padding-top: 0.5rem;
     padding-left: 1rem;
